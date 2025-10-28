@@ -83,3 +83,24 @@ main {
 	font-weight: 500;
 	line-height: 1.5;
 }
+
+.card__price-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1em;
+}
+
+.card__price--new {
+	font-family: "Fraunces", serif;
+	color: var(--green-500);
+	font-weight: 900;
+	font-size: 1.5rem;
+}
+
+.card__price--old {
+	font-family: "Montserrat", sans-serif;
+	color: var(--grey);
+	font-size: 0.9rem;
+	text-decoration: line-through;
+}
