@@ -75,3 +75,11 @@ main {
 	font-size: 1.75rem;
 	line-height: 1.2;
 }
+
+.card__description {
+	font-family: "Montserrat", sans-serif;
+	color: var(--grey);
+	font-size: 0.9rem;
+	font-weight: 500;
+	line-height: 1.5;
+}
