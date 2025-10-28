@@ -139,4 +139,8 @@ main {
 	.image {
 		background-image: url("/images/image-product-desktop.jpg");
 	}
+
+	.card__button:hover {
+		background-color: var(--green-700);
+	}
 }
