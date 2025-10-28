@@ -59,3 +59,11 @@ main {
 	flex-direction: column;
 	gap: 1em;
 }
+
+.card__subtitle {
+	font-family: "Montserrat", sans-serif;
+	color: var(--grey);
+	letter-spacing: 5px;
+	font-weight: 500;
+	font-size: 0.75rem;
+}
