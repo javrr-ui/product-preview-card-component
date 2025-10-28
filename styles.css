@@ -104,3 +104,19 @@ main {
 	font-size: 0.9rem;
 	text-decoration: line-through;
 }
+
+.card__button {
+	background-color: var(--green-500);
+	color: var(--white);
+	border: none;
+	border-radius: 8px;
+	padding: 1em;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.5em;
+}
