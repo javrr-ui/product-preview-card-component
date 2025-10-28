@@ -67,3 +67,11 @@ main {
 	font-weight: 500;
 	font-size: 0.75rem;
 }
+
+.card__title {
+	font-family: "Fraunces", serif;
+	color: var(--black);
+	font-weight: 900;
+	font-size: 1.75rem;
+	line-height: 1.2;
+}
