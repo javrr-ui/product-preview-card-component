@@ -21,4 +21,34 @@ body {
 	align-items: center;
 	height: 100vh;
 	background-color: var(--cream);
+	width: 100%;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	padding: 1em;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--white);
+	border-radius: 8px 8px 0 0;
+	overflow: hidden;
+}
+
+.card__image {
+	width: 100%;
+	height: 370px;
+}
+
+.image {
+	background-image: url("/images/image-product-mobile.jpg");
+	background-size: cover;
+	content: "";
+	background-position: center;
+	width: 100%;
+	height: 100%;
 }
