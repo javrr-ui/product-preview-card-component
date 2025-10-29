@@ -35,7 +35,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	background-color: var(--white);
-	border-radius: 8px 8px 0 0;
+	border-radius: 8px;
 	overflow: hidden;
 }
 
